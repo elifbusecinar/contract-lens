@@ -426,6 +426,8 @@ footer.meta {
 }
 """
 
+    trace_fallback = '<li class="muted">No trace lines.</li>'
+    agent_fallback = '<li class="muted">No agent trace lines.</li>'
     body_inner = (
         '<header class="hero">'
         f"<h1>ContractLens AI — Audit Report</h1>"
@@ -447,11 +449,11 @@ footer.meta {
         + _section("MCP Tool Usage", audit_body)
         + _section(
             "LangGraph Execution Trace",
-            f"<ul class=\"trace\">{trace_items or '<li class=\"muted\">No trace lines.</li>'}</ul>",
+            f"<ul class=\"trace\">{trace_items or trace_fallback}</ul>",
         )
         + _section(
             "Agent Trace",
-            f"<ul class=\"trace\">{agent_items or '<li class=\"muted\">No agent trace lines.</li>'}</ul>",
+            f"<ul class=\"trace\">{agent_items or agent_fallback}</ul>",
         )
         + _section(
             "Frontend Expectations",

@@ -48,10 +48,12 @@ def _mcp_audit_table() -> str:
         "|---|---:|---|---|---|",
     ]
     for e in rows:
+        in_sum = str(e.get("input_summary", ""))[:80].replace("|", "\\|")
+        out_raw = str(e.get("output_summary") or "—")[:80]
+        out_sum = out_raw.replace("|", "\\|")
         lines.append(
             f"| `{e.get('tool', '')}` | {e.get('status', '')} | {e.get('duration_ms', '')} | "
-            f"{str(e.get('input_summary', ''))[:80].replace('|', '\\|')} | "
-            f"{str(e.get('output_summary') or '—')[:80].replace('|', '\\|')} |"
+            f"{in_sum} | {out_sum} |"
         )
     return "\n".join(lines)
 
@@ -85,10 +87,11 @@ def _agent_events_table(agent_events: list[dict[str, Any]]) -> str:
         "|---|---|---|---|---|---:|",
     ]
     for e in agent_events:
+        in_sum = str(e.get("input_summary", ""))[:60].replace("|", "\\|")
+        out_sum = str(e.get("output_summary", ""))[:60].replace("|", "\\|")
         lines.append(
             f"| {e.get('agent_name', '')} | {e.get('role', '')} | `{e.get('tool_used', '')}` | "
-            f"{str(e.get('input_summary', ''))[:60].replace('|', '\\|')} | "
-            f"{str(e.get('output_summary', ''))[:60].replace('|', '\\|')} | {e.get('duration_ms', '')} |"
+            f"{in_sum} | {out_sum} | {e.get('duration_ms', '')} |"
         )
     return "\n".join(lines)
 
