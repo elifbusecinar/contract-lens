@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import os
 from operator import add
 from pathlib import Path
 from typing import Annotated, Any, TypedDict
@@ -501,6 +502,12 @@ def run_workflow(initial: dict[str, Any]) -> dict[str, Any]:
 def _run_workflow_body(initial: dict[str, Any]) -> dict[str, Any]:
     """Prefer LangGraph StateGraph with list reducers for traces; fall back to sequential."""
     verbose = bool(initial.get("verbose"))
+    # GitHub sets this on Actions runners. StateGraph list merges have intermittently produced
+    # incomplete final state on ubuntu-latest while linear execution matches local demos.
+    if os.environ.get("GITHUB_ACTIONS", "").strip().lower() == "true":
+        if verbose:
+            print("[LangGraph] Sequential workflow (GitHub Actions)")
+        return _run_sequential(initial)
     try:
         from langgraph.graph import END, StateGraph  # type: ignore
     except Exception:
