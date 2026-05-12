@@ -114,6 +114,8 @@ Example: `examples/contractlens.example.toml`.
 
 **GitHub REST (optional PAT):** `--github-repo OWNER/REPO` (or `GITHUB_REPOSITORY`), `--github-token-env VAR` (default `GITHUB_TOKEN`), **`--github-create-issue`**, **`--github-issue-comment N`** (timeline comment on issue or PR), **`--github-pr-review N`** (PR **review** with `event=COMMENT` — summary on the review UI), **`--github-pr-inline-comments N`** (line-specific review comments on PR `N`, capped by **`--github-inline-max`**; uses mismatch `comment_path` / `comment_line` from the frontend scanner). Requires token scopes for Issues + Pull requests (classic: `repo`; fine-grained: matching write caps).
 
+For **`--github-pr-inline-comments`**, point **`--root` at the same folder GitHub treats as the repository root** (your monorepo/checkout root). Paths and line numbers come from the frontend scanner relative to that root so they can match files/lines on the PR head; analyzing only a subfolder can misalign paths vs GitHub.
+
 **Scan cache:** `--scan-cache` enables; **`--no-scan-cache`** disables (overrides config/env). Cached entries store **`content_sha256`** so identical size/mtime clones still miss when bytes differ; older cache files without that field fall back to fingerprint-only matching until rewritten.
 
 **Environment:** `CONTRACTLENS_PROBE_BASE_URL` overrides `probe_base_url` when set. **`CONTRACTLENS_SCAN_CACHE`**=`1|true|yes|on` enables cache; `0|false|no|off` disables it (CLI `--scan-cache` / `--no-scan-cache` still wins).
@@ -125,6 +127,8 @@ Main demo (unchanged):
 ```bash
 python -m contractlens.main --feature "Create Project + Upload File" --root examples/sample_project --verbose
 ```
+
+On **your own codebase**, use **`--root .`** (or the absolute path to the repo root) so scans and optional GitHub inline comments line up with paths in GitHub’s UI—especially in a monorepo.
 
 Standalone **HTML** report (embedded dark-theme stylesheet; written beside the Markdown file):
 
@@ -211,9 +215,9 @@ Optional LLM CrewAI: set `OPENAI_API_KEY` or force offline steps with `--determi
 - MCP `prompts/get` arguments are string-keyed per the MCP spec (embed JSON arrays/objects as strings).
 - `write_report` over MCP requires `allow_write: true` in tool arguments.
 
-## Phase 2 (ideas)
+## Phase 2 (ideas — beyond MVP)
 
-OpenAPI export parity, richer auth policy comparison, deeper framework adapters, PR review comments on lines (not just issue timeline comments).
+Optional extensions, not required for the shipped demo: **full AST / router-aware scanning**, **stronger OpenAPI handling** (export parity, deeper `$ref`, external refs), **richer auth/policy comparison**, **full LLM CrewAI reasoning** (beyond deterministic fallback), **opening PRs automatically** from audit results, HTML/dashboard polish, CI/GitHub Apps integrations. Inline PR review comments and timeline/issue/review hooks above are already part of the current CLI.
 
 Presenter notes: `docs/CONTRACTLENS_MVP.md`, `docs/ARCHITECTURE.md`.
 
