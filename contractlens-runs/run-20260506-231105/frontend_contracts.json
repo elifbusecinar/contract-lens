@@ -1,0 +1,31 @@
+[
+  {
+    "method": "GET",
+    "path": "/api/projects/{id}/detail",
+    "source": "frontend/UploadModal.tsx",
+    "line": 11,
+    "request_fields": [],
+    "response_fields": [
+      "name"
+    ],
+    "request_dto": null,
+    "response_dto": null,
+    "auth": null
+  },
+  {
+    "method": "POST",
+    "path": "/api/projects/{id}/files",
+    "source": "frontend/projectApi.ts",
+    "line": 12,
+    "request_fields": [
+      "file"
+    ],
+    "response_fields": [
+      "id",
+      "thumbnailUrl"
+    ],
+    "request_dto": null,
+    "response_dto": null,
+    "auth": null
+  }
+]

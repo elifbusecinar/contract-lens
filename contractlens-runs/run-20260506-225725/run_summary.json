@@ -1,0 +1,14 @@
+{
+  "feature_name": "Create Project + Upload File",
+  "root_path": "C:\\dev\\projects\\contract-lens\\examples\\sample_project",
+  "started_at": "2026-05-06T22:57:25.537595+00:00",
+  "completed_at": "2026-05-06T22:57:26.798926+00:00",
+  "run_id": "run-20260506-225725",
+  "frontend_contract_count": 2,
+  "backend_route_count": 2,
+  "mismatch_count": 6,
+  "high_risk_count": 3,
+  "report_path": "C:\\dev\\projects\\contract-lens\\contractlens-reports\\contractlens-report-create-project-upload-file.md",
+  "audit_log_path": "C:\\dev\\projects\\contract-lens\\contractlens-runs\\latest\\tool_audit_log.json",
+  "execution_trace_path": "C:\\dev\\projects\\contract-lens\\contractlens-runs\\latest\\execution_trace.json"
+}

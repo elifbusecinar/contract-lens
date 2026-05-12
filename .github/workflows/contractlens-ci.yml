@@ -1,0 +1,38 @@
+name: ContractLens CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+
+jobs:
+  contractlens:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Build dashboard UI (Vite)
+        working-directory: dashboard-ui
+        run: npm install && npm run build
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt pytest
+
+      - name: Verify demo pipeline
+        run: python -m contractlens.verify_demo
+
+      - name: CLI audit (sample project)
+        run: python -m contractlens.main --feature "Create Project + Upload File" --root examples/sample_project --verbose
+
+      - name: Pytest
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+        run: pytest -q

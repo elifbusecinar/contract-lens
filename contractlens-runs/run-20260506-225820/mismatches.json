@@ -1,0 +1,65 @@
+[
+  {
+    "area": "auth",
+    "frontend_expects": "not inferred (MVP static scan)",
+    "backend_provides": "[Authorize]",
+    "risk": "Medium",
+    "suggestion": "Ensure the frontend obtains and sends credentials (cookies/Bearer token) required by authorized endpoints."
+  },
+  {
+    "area": "response_field",
+    "frontend_expects": "name",
+    "backend_provides": "created_at, title",
+    "risk": "Medium",
+    "suggestion": "Align JSON property `name` with backend naming or map in the client (backend hints: created_at, title)."
+  },
+  {
+    "area": "path",
+    "frontend_expects": "/api/projects/{id}/files",
+    "backend_provides": "/api/projects/{projectId}/models",
+    "risk": "High",
+    "suggestion": "Align the frontend upload path with the backend route (e.g. `/files` vs `/models`) or add a compatibility alias endpoint."
+  },
+  {
+    "area": "auth",
+    "frontend_expects": "not inferred (MVP static scan)",
+    "backend_provides": "[Authorize]",
+    "risk": "Medium",
+    "suggestion": "Ensure the frontend obtains and sends credentials (cookies/Bearer token) required by authorized endpoints."
+  },
+  {
+    "area": "response_field",
+    "frontend_expects": "id",
+    "backend_provides": "projectId, thumbnail_path",
+    "risk": "High",
+    "suggestion": "Align JSON property `id` with backend naming or map in the client (backend hints: projectId, thumbnail_path)."
+  },
+  {
+    "area": "response_field",
+    "frontend_expects": "thumbnailUrl",
+    "backend_provides": "projectId, thumbnail_path",
+    "risk": "High",
+    "suggestion": "Align JSON property `thumbnailUrl` with backend naming or map in the client (backend hints: projectId, thumbnail_path)."
+  },
+  {
+    "area": "openapi_vs_code_response_schema",
+    "frontend_expects": "OpenAPI fields: createdAt, name",
+    "backend_provides": "Implementation fields: (none); only-in-spec (normalized): createdAt, name",
+    "risk": "Medium",
+    "suggestion": "Refresh the OpenAPI response schema to match serialized DTOs or rename backend properties / configure serializers so documentation reflects runtime JSON."
+  },
+  {
+    "area": "openapi_vs_code_path",
+    "frontend_expects": "OpenAPI POST `/api/projects/{projectId}/files` (`openapi.json`)",
+    "backend_provides": "Code POST `/api/projects/{projectId}/models` (`backend/ProjectsController.cs`)",
+    "risk": "High",
+    "suggestion": "Update the published OpenAPI path or change the controller route so spec and implementation agree (add an alias route if both must remain temporarily)."
+  },
+  {
+    "area": "openapi_vs_code_response_schema",
+    "frontend_expects": "OpenAPI fields: id, thumbnailUrl",
+    "backend_provides": "Implementation fields: (none); only-in-spec (normalized): id, thumbnailUrl",
+    "risk": "Medium",
+    "suggestion": "Refresh the OpenAPI response schema to match serialized DTOs or rename backend properties / configure serializers so documentation reflects runtime JSON."
+  }
+]

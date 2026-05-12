@@ -1,0 +1,3366 @@
+[
+  {
+    "timestamp": "2026-05-06T21:17:25.011231+00:00",
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 5.36,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:17:25.017049+00:00",
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 3.91,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:17:25.026541+00:00",
+    "tool": "compare_contracts",
+    "input_summary": "fe=2 be=2",
+    "status": "success",
+    "duration_ms": 0.56,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:17:26.106365+00:00",
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1.06,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:17:26.110289+00:00",
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 2.62,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:17:26.124296+00:00",
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 3.67,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:17:26.134119+00:00",
+    "tool": "compare_contracts",
+    "input_summary": "fe=2 be=2",
+    "status": "success",
+    "duration_ms": 0.12,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:17:26.155881+00:00",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=9376",
+    "status": "success",
+    "duration_ms": 0.66,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:17:26.168249+00:00",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=9548",
+    "status": "success",
+    "duration_ms": 0.68,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:17:26.187106+00:00",
+    "tool": "generate_contract_report",
+    "input_summary": "feature='Create Project + Upload File' root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1150.92,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:17:27.290684+00:00",
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1.08,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:17:27.295241+00:00",
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 2.92,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:17:27.311944+00:00",
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 4.0,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:17:27.322879+00:00",
+    "tool": "compare_contracts",
+    "input_summary": "fe=2 be=2",
+    "status": "success",
+    "duration_ms": 0.29,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:17:27.346588+00:00",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=10241",
+    "status": "success",
+    "duration_ms": 0.96,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:17:27.358917+00:00",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=10413",
+    "status": "success",
+    "duration_ms": 0.79,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:17:35.784954+00:00",
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1.0,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:17:35.789034+00:00",
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 3.01,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:17:35.804528+00:00",
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 4.27,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:17:35.814832+00:00",
+    "tool": "compare_contracts",
+    "input_summary": "fe=2 be=2",
+    "status": "success",
+    "duration_ms": 0.37,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:17:36.534246+00:00",
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 0.98,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:17:36.537929+00:00",
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 2.23,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:17:36.553174+00:00",
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 3.3,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:17:36.564979+00:00",
+    "tool": "compare_contracts",
+    "input_summary": "fe=2 be=2",
+    "status": "success",
+    "duration_ms": 0.12,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:17:36.587183+00:00",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=11334",
+    "status": "success",
+    "duration_ms": 0.87,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:17:36.600454+00:00",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=11506",
+    "status": "success",
+    "duration_ms": 0.66,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:17:36.616768+00:00",
+    "tool": "generate_contract_report",
+    "input_summary": "feature='Create Project + Upload File' root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 790.42,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:17:36.637006+00:00",
+    "tool": "get_latest_report",
+    "input_summary": "reports_dir='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports'",
+    "status": "success",
+    "duration_ms": 10.25,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:18:01.695453+00:00",
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1.11,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:18:01.700244+00:00",
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 3.36,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:18:01.716051+00:00",
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 3.85,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:18:01.726980+00:00",
+    "tool": "compare_contracts",
+    "input_summary": "fe=2 be=2",
+    "status": "success",
+    "duration_ms": 0.32,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:18:01.750619+00:00",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=12312",
+    "status": "success",
+    "duration_ms": 0.73,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:18:01.763049+00:00",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=12643",
+    "status": "success",
+    "duration_ms": 0.76,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:18:11.487937+00:00",
+    "tool": "explain_mismatch",
+    "input_summary": "area='path'",
+    "status": "success",
+    "duration_ms": 0.03,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:04.609315+00:00",
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 5.46,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:04.614715+00:00",
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 3.87,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:04.625921+00:00",
+    "tool": "compare_contracts",
+    "input_summary": "fe=2 be=2",
+    "status": "success",
+    "duration_ms": 0.36,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:05.501323+00:00",
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 0.92,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:05.506396+00:00",
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 2.8,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:05.520291+00:00",
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 3.21,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:05.530833+00:00",
+    "tool": "compare_contracts",
+    "input_summary": "fe=2 be=2",
+    "status": "success",
+    "duration_ms": 0.14,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:05.908016+00:00",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=14003",
+    "status": "success",
+    "duration_ms": 0.8,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:05.921877+00:00",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=14333",
+    "status": "success",
+    "duration_ms": 0.91,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:05.937452+00:00",
+    "tool": "generate_contract_report",
+    "input_summary": "feature='Create Project + Upload File' root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1301.45,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:07.232181+00:00",
+    "tool": "explain_mismatch",
+    "input_summary": "area='path'",
+    "status": "success",
+    "duration_ms": 0.03,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:07.233299+00:00",
+    "tool": "list_mcp_resources",
+    "input_summary": "",
+    "status": "success",
+    "duration_ms": 0.01,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:07.477445+00:00",
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 0.86,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:07.489361+00:00",
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1.07,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:07.503550+00:00",
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 3.22,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:07.517699+00:00",
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 4.3,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:07.527355+00:00",
+    "tool": "compare_contracts",
+    "input_summary": "fe=2 be=2",
+    "status": "success",
+    "duration_ms": 0.35,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:08.213331+00:00",
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 0.94,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:08.216952+00:00",
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 2.25,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:08.231138+00:00",
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 3.0,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:08.242176+00:00",
+    "tool": "compare_contracts",
+    "input_summary": "fe=2 be=2",
+    "status": "success",
+    "duration_ms": 0.12,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:08.602198+00:00",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=15463",
+    "status": "success",
+    "duration_ms": 0.99,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:08.615571+00:00",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=15795",
+    "status": "success",
+    "duration_ms": 0.88,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:08.630549+00:00",
+    "tool": "generate_contract_report",
+    "input_summary": "feature='Create Project + Upload File' root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1093.53,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:08.651563+00:00",
+    "tool": "get_latest_report",
+    "input_summary": "reports_dir='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports'",
+    "status": "success",
+    "duration_ms": 11.35,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:08.661497+00:00",
+    "tool": "list_mcp_resources",
+    "input_summary": "",
+    "status": "success",
+    "duration_ms": 0.01,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:08.670776+00:00",
+    "tool": "list_mcp_resources",
+    "input_summary": "",
+    "status": "success",
+    "duration_ms": 0.01,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:08.691273+00:00",
+    "tool": "read_mcp_resource",
+    "input_summary": "uri='contractlens://reports/latest'",
+    "status": "success",
+    "duration_ms": 10.57,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:08.701673+00:00",
+    "tool": "read_mcp_resource",
+    "input_summary": "uri='contractlens://reports/latest'",
+    "status": "success",
+    "duration_ms": 0.52,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:08.712153+00:00",
+    "tool": "list_mcp_prompts",
+    "input_summary": "",
+    "status": "success",
+    "duration_ms": 0.01,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:08.721649+00:00",
+    "tool": "list_mcp_prompts",
+    "input_summary": "",
+    "status": "success",
+    "duration_ms": 0.0,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:08.731474+00:00",
+    "tool": "get_mcp_prompt",
+    "input_summary": "name='explain_contract_mismatch'",
+    "status": "success",
+    "duration_ms": 0.04,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:08.741360+00:00",
+    "tool": "get_mcp_prompt",
+    "input_summary": "name='explain_contract_mismatch'",
+    "status": "success",
+    "duration_ms": 0.04,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:09.821139+00:00",
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 0.97,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:09.825909+00:00",
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 2.9,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:09.841291+00:00",
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 3.66,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:09.852112+00:00",
+    "tool": "compare_contracts",
+    "input_summary": "fe=2 be=2",
+    "status": "success",
+    "duration_ms": 0.32,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:10.205747+00:00",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=16920",
+    "status": "success",
+    "duration_ms": 0.93,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:10.218957+00:00",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=17252",
+    "status": "success",
+    "duration_ms": 0.8,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:29.364819+00:00",
+    "tool": "explain_mismatch",
+    "input_summary": "area='path'",
+    "status": "success",
+    "duration_ms": 0.03,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:29.366256+00:00",
+    "tool": "list_mcp_resources",
+    "input_summary": "",
+    "status": "success",
+    "duration_ms": 0.01,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:29.377839+00:00",
+    "tool": "read_mcp_resource",
+    "input_summary": "uri='contractlens://reports/latest'",
+    "status": "success",
+    "duration_ms": 1.14,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:29.387814+00:00",
+    "tool": "list_mcp_prompts",
+    "input_summary": "",
+    "status": "success",
+    "duration_ms": 0.01,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:29.397420+00:00",
+    "tool": "get_mcp_prompt",
+    "input_summary": "name='explain_contract_mismatch'",
+    "status": "success",
+    "duration_ms": 0.05,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:29.408697+00:00",
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1.08,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:29.655406+00:00",
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 2.97,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:29.669543+00:00",
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 3.68,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:29.679652+00:00",
+    "tool": "compare_contracts",
+    "input_summary": "fe=2 be=2",
+    "status": "success",
+    "duration_ms": 0.43,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:30.387058+00:00",
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1.15,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:30.390722+00:00",
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 2.24,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:30.405727+00:00",
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 3.2,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:30.417076+00:00",
+    "tool": "compare_contracts",
+    "input_summary": "fe=2 be=2",
+    "status": "success",
+    "duration_ms": 0.13,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:30.779271+00:00",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=18309",
+    "status": "success",
+    "duration_ms": 0.7,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:30.792084+00:00",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=18640",
+    "status": "success",
+    "duration_ms": 0.63,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:30.807042+00:00",
+    "tool": "generate_contract_report",
+    "input_summary": "feature='Create Project + Upload File' root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1117.56,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:39.448705+00:00",
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 3.5,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:39.453959+00:00",
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 3.92,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:39.468857+00:00",
+    "tool": "compare_contracts",
+    "input_summary": "fe=2 be=2",
+    "status": "success",
+    "duration_ms": 0.37,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:40.206513+00:00",
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1.13,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:40.210499+00:00",
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 2.52,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:40.225244+00:00",
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 3.38,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:40.235805+00:00",
+    "tool": "compare_contracts",
+    "input_summary": "fe=2 be=2",
+    "status": "success",
+    "duration_ms": 0.12,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:40.599130+00:00",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=19449",
+    "status": "success",
+    "duration_ms": 0.76,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:40.612796+00:00",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=19781",
+    "status": "success",
+    "duration_ms": 0.68,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:40.628756+00:00",
+    "tool": "generate_contract_report",
+    "input_summary": "feature='Create Project + Upload File' root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1149.78,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:41.945043+00:00",
+    "tool": "explain_mismatch",
+    "input_summary": "area='path'",
+    "status": "success",
+    "duration_ms": 0.03,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:41.946508+00:00",
+    "tool": "list_mcp_resources",
+    "input_summary": "",
+    "status": "success",
+    "duration_ms": 0.01,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:41.958929+00:00",
+    "tool": "read_mcp_resource",
+    "input_summary": "uri='contractlens://reports/latest'",
+    "status": "success",
+    "duration_ms": 0.9,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:41.969685+00:00",
+    "tool": "list_mcp_prompts",
+    "input_summary": "",
+    "status": "success",
+    "duration_ms": 0.01,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:41.979918+00:00",
+    "tool": "get_mcp_prompt",
+    "input_summary": "name='explain_contract_mismatch'",
+    "status": "success",
+    "duration_ms": 0.03,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:41.990670+00:00",
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1.03,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:42.231649+00:00",
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1.23,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:42.244262+00:00",
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 0.92,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:42.257157+00:00",
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 2.82,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:42.271496+00:00",
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 3.81,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:42.281417+00:00",
+    "tool": "compare_contracts",
+    "input_summary": "fe=2 be=2",
+    "status": "success",
+    "duration_ms": 0.36,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:42.972855+00:00",
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 0.9,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:42.977356+00:00",
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 2.49,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:42.991863+00:00",
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 3.37,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:43.001998+00:00",
+    "tool": "compare_contracts",
+    "input_summary": "fe=2 be=2",
+    "status": "success",
+    "duration_ms": 0.13,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:43.357099+00:00",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=21215",
+    "status": "success",
+    "duration_ms": 0.74,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:43.370074+00:00",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=21547",
+    "status": "success",
+    "duration_ms": 1.06,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:43.385450+00:00",
+    "tool": "generate_contract_report",
+    "input_summary": "feature='Create Project + Upload File' root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1094.62,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:43.405902+00:00",
+    "tool": "get_latest_report",
+    "input_summary": "reports_dir='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports'",
+    "status": "success",
+    "duration_ms": 10.39,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:43.417043+00:00",
+    "tool": "list_mcp_resources",
+    "input_summary": "",
+    "status": "success",
+    "duration_ms": 0.01,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:43.427060+00:00",
+    "tool": "list_mcp_resources",
+    "input_summary": "",
+    "status": "success",
+    "duration_ms": 0.01,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:43.446078+00:00",
+    "tool": "read_mcp_resource",
+    "input_summary": "uri='contractlens://reports/latest'",
+    "status": "success",
+    "duration_ms": 9.55,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:43.456641+00:00",
+    "tool": "read_mcp_resource",
+    "input_summary": "uri='contractlens://reports/latest'",
+    "status": "success",
+    "duration_ms": 0.56,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:43.465643+00:00",
+    "tool": "list_mcp_prompts",
+    "input_summary": "",
+    "status": "success",
+    "duration_ms": 0.01,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:43.474947+00:00",
+    "tool": "list_mcp_prompts",
+    "input_summary": "",
+    "status": "success",
+    "duration_ms": 0.0,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:43.484431+00:00",
+    "tool": "get_mcp_prompt",
+    "input_summary": "name='explain_contract_mismatch'",
+    "status": "success",
+    "duration_ms": 0.03,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:43.493415+00:00",
+    "tool": "get_mcp_prompt",
+    "input_summary": "name='explain_contract_mismatch'",
+    "status": "success",
+    "duration_ms": 0.04,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:44.589414+00:00",
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 0.97,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:44.594486+00:00",
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 3.34,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:44.608136+00:00",
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 3.91,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:44.618219+00:00",
+    "tool": "compare_contracts",
+    "input_summary": "fe=2 be=2",
+    "status": "success",
+    "duration_ms": 0.32,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:44.971872+00:00",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=22673",
+    "status": "success",
+    "duration_ms": 0.69,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T21:29:44.985819+00:00",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=23005",
+    "status": "success",
+    "duration_ms": 0.66,
+    "error": null
+  },
+  {
+    "timestamp": "2026-05-06T22:47:33.027196+00:00",
+    "run_id": null,
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 11.75,
+    "error": null,
+    "output_summary": "2 contract(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:47:33.040998+00:00",
+    "run_id": null,
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 10.11,
+    "error": null,
+    "output_summary": "2 route(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:47:33.066858+00:00",
+    "run_id": null,
+    "tool": "compare_contracts",
+    "input_summary": "fe=2 be=2",
+    "status": "success",
+    "duration_ms": 1.51,
+    "error": null,
+    "output_summary": "6 mismatch(es); High=3"
+  },
+  {
+    "timestamp": "2026-05-06T22:47:35.377265+00:00",
+    "run_id": "run-20260506-224733",
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 3.49,
+    "error": null,
+    "output_summary": "5 file path(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:47:35.387622+00:00",
+    "run_id": "run-20260506-224733",
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 5.76,
+    "error": null,
+    "output_summary": "2 contract(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:47:35.419599+00:00",
+    "run_id": "run-20260506-224733",
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 6.56,
+    "error": null,
+    "output_summary": "2 route(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:47:35.442707+00:00",
+    "run_id": "run-20260506-224733",
+    "tool": "compare_contracts",
+    "input_summary": "fe=2 be=2",
+    "status": "success",
+    "duration_ms": 0.26,
+    "error": null,
+    "output_summary": "6 mismatch(es); High=3"
+  },
+  {
+    "timestamp": "2026-05-06T22:47:36.935640+00:00",
+    "run_id": "run-20260506-224733",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=24203",
+    "status": "success",
+    "duration_ms": 4.39,
+    "error": null,
+    "output_summary": "Wrote OK -> contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T22:47:36.975832+00:00",
+    "run_id": "run-20260506-224733",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=24560",
+    "status": "success",
+    "duration_ms": 1.99,
+    "error": null,
+    "output_summary": "Wrote OK -> contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T22:47:37.049021+00:00",
+    "run_id": null,
+    "tool": "generate_contract_report",
+    "input_summary": "feature='Create Project + Upload File' root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 3959.03,
+    "error": null,
+    "output_summary": "mismatch_count=6; report=contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T22:47:40.088487+00:00",
+    "run_id": null,
+    "tool": "explain_mismatch",
+    "input_summary": "area='path'",
+    "status": "success",
+    "duration_ms": 0.06,
+    "error": null,
+    "output_summary": "Returned explanation + suggested_fix"
+  },
+  {
+    "timestamp": "2026-05-06T22:47:40.091607+00:00",
+    "run_id": null,
+    "tool": "list_mcp_resources",
+    "input_summary": "",
+    "status": "success",
+    "duration_ms": 0.01,
+    "error": null,
+    "output_summary": "6 resource URI(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:47:40.118467+00:00",
+    "run_id": null,
+    "tool": "read_mcp_resource",
+    "input_summary": "uri='contractlens://reports/latest'",
+    "status": "success",
+    "duration_ms": 2.68,
+    "error": null,
+    "output_summary": "status=ok; body 24560 character(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:47:40.144525+00:00",
+    "run_id": null,
+    "tool": "list_mcp_prompts",
+    "input_summary": "",
+    "status": "success",
+    "duration_ms": 0.02,
+    "error": null,
+    "output_summary": "5 prompt template(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:47:40.164150+00:00",
+    "run_id": null,
+    "tool": "get_mcp_prompt",
+    "input_summary": "name='explain_contract_mismatch'",
+    "status": "success",
+    "duration_ms": 0.06,
+    "error": null,
+    "output_summary": "Prompt string 230 character(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:47:40.187032+00:00",
+    "run_id": null,
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 2.29,
+    "error": null,
+    "output_summary": "5 file path(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:47:45.892372+00:00",
+    "run_id": null,
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 2.36,
+    "error": null,
+    "output_summary": "5 file path(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:47:45.900615+00:00",
+    "run_id": null,
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 3.41,
+    "error": null,
+    "output_summary": "5 file path(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:47:45.931059+00:00",
+    "run_id": null,
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 8.06,
+    "error": null,
+    "output_summary": "2 contract(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:47:45.968600+00:00",
+    "run_id": null,
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 15.29,
+    "error": null,
+    "output_summary": "2 route(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:47:45.992998+00:00",
+    "run_id": null,
+    "tool": "compare_contracts",
+    "input_summary": "fe=2 be=2",
+    "status": "success",
+    "duration_ms": 1.28,
+    "error": null,
+    "output_summary": "6 mismatch(es); High=3"
+  },
+  {
+    "timestamp": "2026-05-06T22:47:47.721649+00:00",
+    "run_id": "run-20260506-224746",
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 2.54,
+    "error": null,
+    "output_summary": "5 file path(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:47:47.732411+00:00",
+    "run_id": "run-20260506-224746",
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 6.26,
+    "error": null,
+    "output_summary": "2 contract(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:47:47.767709+00:00",
+    "run_id": "run-20260506-224746",
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 10.62,
+    "error": null,
+    "output_summary": "2 route(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:47:47.790953+00:00",
+    "run_id": "run-20260506-224746",
+    "tool": "compare_contracts",
+    "input_summary": "fe=2 be=2",
+    "status": "success",
+    "duration_ms": 0.24,
+    "error": null,
+    "output_summary": "6 mismatch(es); High=3"
+  },
+  {
+    "timestamp": "2026-05-06T22:47:48.782286+00:00",
+    "run_id": "run-20260506-224746",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=26402",
+    "status": "success",
+    "duration_ms": 2.03,
+    "error": null,
+    "output_summary": "Wrote OK -> contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T22:47:48.821161+00:00",
+    "run_id": "run-20260506-224746",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=26758",
+    "status": "success",
+    "duration_ms": 3.89,
+    "error": null,
+    "output_summary": "Wrote OK -> contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T22:47:48.898984+00:00",
+    "run_id": null,
+    "tool": "generate_contract_report",
+    "input_summary": "feature='Create Project + Upload File' root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 2883.38,
+    "error": null,
+    "output_summary": "mismatch_count=6; report=contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T22:47:48.925508+00:00",
+    "run_id": null,
+    "tool": "get_latest_report",
+    "input_summary": "reports_dir='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports'",
+    "status": "success",
+    "duration_ms": 3.44,
+    "error": null,
+    "output_summary": "Latest report body 26758 character(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:47:48.949020+00:00",
+    "run_id": null,
+    "tool": "list_mcp_resources",
+    "input_summary": "",
+    "status": "success",
+    "duration_ms": 0.03,
+    "error": null,
+    "output_summary": "6 resource URI(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:47:48.972728+00:00",
+    "run_id": null,
+    "tool": "list_mcp_resources",
+    "input_summary": "",
+    "status": "success",
+    "duration_ms": 0.02,
+    "error": null,
+    "output_summary": "6 resource URI(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:47:49.014063+00:00",
+    "run_id": null,
+    "tool": "read_mcp_resource",
+    "input_summary": "uri='contractlens://reports/latest'",
+    "status": "success",
+    "duration_ms": 19.36,
+    "error": null,
+    "output_summary": "status=ok; body 26758 character(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:47:49.039346+00:00",
+    "run_id": null,
+    "tool": "read_mcp_resource",
+    "input_summary": "uri='contractlens://reports/latest'",
+    "status": "success",
+    "duration_ms": 1.78,
+    "error": null,
+    "output_summary": "status=ok; body 26758 character(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:47:49.066308+00:00",
+    "run_id": null,
+    "tool": "list_mcp_prompts",
+    "input_summary": "",
+    "status": "success",
+    "duration_ms": 0.02,
+    "error": null,
+    "output_summary": "5 prompt template(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:47:49.091456+00:00",
+    "run_id": null,
+    "tool": "list_mcp_prompts",
+    "input_summary": "",
+    "status": "success",
+    "duration_ms": 0.01,
+    "error": null,
+    "output_summary": "5 prompt template(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:47:49.120319+00:00",
+    "run_id": null,
+    "tool": "get_mcp_prompt",
+    "input_summary": "name='explain_contract_mismatch'",
+    "status": "success",
+    "duration_ms": 0.1,
+    "error": null,
+    "output_summary": "Prompt string 244 character(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:47:49.145847+00:00",
+    "run_id": null,
+    "tool": "get_mcp_prompt",
+    "input_summary": "name='explain_contract_mismatch'",
+    "status": "success",
+    "duration_ms": 0.12,
+    "error": null,
+    "output_summary": "Prompt string 244 character(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:47:51.713491+00:00",
+    "run_id": "run-20260506-224750",
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 2.68,
+    "error": null,
+    "output_summary": "5 file path(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:47:51.727024+00:00",
+    "run_id": "run-20260506-224750",
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 9.28,
+    "error": null,
+    "output_summary": "2 contract(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:47:51.764689+00:00",
+    "run_id": "run-20260506-224750",
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 10.19,
+    "error": null,
+    "output_summary": "2 route(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:47:51.787982+00:00",
+    "run_id": "run-20260506-224750",
+    "tool": "compare_contracts",
+    "input_summary": "fe=2 be=2",
+    "status": "success",
+    "duration_ms": 0.71,
+    "error": null,
+    "output_summary": "6 mismatch(es); High=3"
+  },
+  {
+    "timestamp": "2026-05-06T22:47:52.668668+00:00",
+    "run_id": "run-20260506-224750",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=28298",
+    "status": "success",
+    "duration_ms": 4.91,
+    "error": null,
+    "output_summary": "Wrote OK -> contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T22:47:52.717259+00:00",
+    "run_id": "run-20260506-224750",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=28653",
+    "status": "success",
+    "duration_ms": 4.66,
+    "error": null,
+    "output_summary": "Wrote OK -> contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:07.910648+00:00",
+    "run_id": null,
+    "tool": "explain_mismatch",
+    "input_summary": "area='path'",
+    "status": "success",
+    "duration_ms": 0.02,
+    "error": null,
+    "output_summary": "Returned explanation + suggested_fix"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:29.355524+00:00",
+    "run_id": null,
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 3.27,
+    "error": null,
+    "output_summary": "2 contract(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:29.362691+00:00",
+    "run_id": null,
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 5.07,
+    "error": null,
+    "output_summary": "2 route(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:29.376532+00:00",
+    "run_id": null,
+    "tool": "compare_contracts",
+    "input_summary": "fe=2 be=2",
+    "status": "success",
+    "duration_ms": 0.36,
+    "error": null,
+    "output_summary": "6 mismatch(es); High=3"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:30.220479+00:00",
+    "run_id": "run-20260506-224929",
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 0.91,
+    "error": null,
+    "output_summary": "5 file path(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:30.225142+00:00",
+    "run_id": "run-20260506-224929",
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 2.78,
+    "error": null,
+    "output_summary": "2 contract(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:30.241210+00:00",
+    "run_id": "run-20260506-224929",
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 3.82,
+    "error": null,
+    "output_summary": "2 route(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:30.252133+00:00",
+    "run_id": "run-20260506-224929",
+    "tool": "compare_contracts",
+    "input_summary": "fe=2 be=2",
+    "status": "success",
+    "duration_ms": 0.13,
+    "error": null,
+    "output_summary": "6 mismatch(es); High=3"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:30.638881+00:00",
+    "run_id": "run-20260506-224929",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=29550",
+    "status": "success",
+    "duration_ms": 0.71,
+    "error": null,
+    "output_summary": "Wrote OK -> contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:30.655489+00:00",
+    "run_id": "run-20260506-224929",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=29906",
+    "status": "success",
+    "duration_ms": 0.89,
+    "error": null,
+    "output_summary": "Wrote OK -> contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:30.673501+00:00",
+    "run_id": null,
+    "tool": "generate_contract_report",
+    "input_summary": "feature='Create Project + Upload File' root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1285.08,
+    "error": null,
+    "output_summary": "mismatch_count=6; report=contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:32.125616+00:00",
+    "run_id": null,
+    "tool": "explain_mismatch",
+    "input_summary": "area='path'",
+    "status": "success",
+    "duration_ms": 0.04,
+    "error": null,
+    "output_summary": "Returned explanation + suggested_fix"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:32.127337+00:00",
+    "run_id": null,
+    "tool": "list_mcp_resources",
+    "input_summary": "",
+    "status": "success",
+    "duration_ms": 0.01,
+    "error": null,
+    "output_summary": "6 resource URI(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:32.141784+00:00",
+    "run_id": null,
+    "tool": "read_mcp_resource",
+    "input_summary": "uri='contractlens://reports/latest'",
+    "status": "success",
+    "duration_ms": 1.53,
+    "error": null,
+    "output_summary": "status=ok; body 29906 character(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:32.152553+00:00",
+    "run_id": null,
+    "tool": "list_mcp_prompts",
+    "input_summary": "",
+    "status": "success",
+    "duration_ms": 0.01,
+    "error": null,
+    "output_summary": "5 prompt template(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:32.163803+00:00",
+    "run_id": null,
+    "tool": "get_mcp_prompt",
+    "input_summary": "name='explain_contract_mismatch'",
+    "status": "success",
+    "duration_ms": 0.03,
+    "error": null,
+    "output_summary": "Prompt string 230 character(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:32.176063+00:00",
+    "run_id": null,
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1.12,
+    "error": null,
+    "output_summary": "5 file path(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:33.881895+00:00",
+    "run_id": null,
+    "tool": "explain_mismatch",
+    "input_summary": "area='path'",
+    "status": "success",
+    "duration_ms": 0.02,
+    "error": null,
+    "output_summary": "Returned explanation + suggested_fix"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:35.598826+00:00",
+    "run_id": "run-20260506-224934",
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1.05,
+    "error": null,
+    "output_summary": "5 file path(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:35.605889+00:00",
+    "run_id": "run-20260506-224934",
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 4.44,
+    "error": null,
+    "output_summary": "2 contract(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:35.627546+00:00",
+    "run_id": "run-20260506-224934",
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 4.02,
+    "error": null,
+    "output_summary": "2 route(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:35.640668+00:00",
+    "run_id": "run-20260506-224934",
+    "tool": "compare_contracts",
+    "input_summary": "fe=2 be=2",
+    "status": "success",
+    "duration_ms": 0.36,
+    "error": null,
+    "output_summary": "6 mismatch(es); High=3"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:36.051591+00:00",
+    "run_id": "run-20260506-224934",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=31252",
+    "status": "success",
+    "duration_ms": 1.44,
+    "error": null,
+    "output_summary": "Wrote OK -> contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:36.068810+00:00",
+    "run_id": "run-20260506-224934",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=31608",
+    "status": "success",
+    "duration_ms": 0.99,
+    "error": null,
+    "output_summary": "Wrote OK -> contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:55.386404+00:00",
+    "run_id": null,
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 0.97,
+    "error": null,
+    "output_summary": "5 file path(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:55.389185+00:00",
+    "run_id": null,
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1.08,
+    "error": null,
+    "output_summary": "5 file path(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:55.405671+00:00",
+    "run_id": null,
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 3.7,
+    "error": null,
+    "output_summary": "2 contract(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:55.420879+00:00",
+    "run_id": null,
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 4.4,
+    "error": null,
+    "output_summary": "2 route(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:55.432325+00:00",
+    "run_id": null,
+    "tool": "compare_contracts",
+    "input_summary": "fe=2 be=2",
+    "status": "success",
+    "duration_ms": 0.36,
+    "error": null,
+    "output_summary": "6 mismatch(es); High=3"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:56.270056+00:00",
+    "run_id": "run-20260506-224955",
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 0.97,
+    "error": null,
+    "output_summary": "5 file path(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:56.274989+00:00",
+    "run_id": "run-20260506-224955",
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 2.82,
+    "error": null,
+    "output_summary": "2 contract(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:56.289804+00:00",
+    "run_id": "run-20260506-224955",
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 3.19,
+    "error": null,
+    "output_summary": "2 route(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:56.302471+00:00",
+    "run_id": "run-20260506-224955",
+    "tool": "compare_contracts",
+    "input_summary": "fe=2 be=2",
+    "status": "success",
+    "duration_ms": 0.12,
+    "error": null,
+    "output_summary": "6 mismatch(es); High=3"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:56.693705+00:00",
+    "run_id": "run-20260506-224955",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=32664",
+    "status": "success",
+    "duration_ms": 1.03,
+    "error": null,
+    "output_summary": "Wrote OK -> contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:56.710597+00:00",
+    "run_id": "run-20260506-224955",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=33020",
+    "status": "success",
+    "duration_ms": 0.81,
+    "error": null,
+    "output_summary": "Wrote OK -> contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:56.727639+00:00",
+    "run_id": null,
+    "tool": "generate_contract_report",
+    "input_summary": "feature='Create Project + Upload File' root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1284.33,
+    "error": null,
+    "output_summary": "mismatch_count=6; report=contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:56.750553+00:00",
+    "run_id": null,
+    "tool": "get_latest_report",
+    "input_summary": "reports_dir='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports'",
+    "status": "success",
+    "duration_ms": 11.34,
+    "error": null,
+    "output_summary": "Latest report body 33020 character(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:56.762174+00:00",
+    "run_id": null,
+    "tool": "list_mcp_resources",
+    "input_summary": "",
+    "status": "success",
+    "duration_ms": 0.01,
+    "error": null,
+    "output_summary": "6 resource URI(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:56.772962+00:00",
+    "run_id": null,
+    "tool": "list_mcp_resources",
+    "input_summary": "",
+    "status": "success",
+    "duration_ms": 0.01,
+    "error": null,
+    "output_summary": "6 resource URI(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:56.794414+00:00",
+    "run_id": null,
+    "tool": "read_mcp_resource",
+    "input_summary": "uri='contractlens://reports/latest'",
+    "status": "success",
+    "duration_ms": 10.21,
+    "error": null,
+    "output_summary": "status=ok; body 33020 character(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:56.806122+00:00",
+    "run_id": null,
+    "tool": "read_mcp_resource",
+    "input_summary": "uri='contractlens://reports/latest'",
+    "status": "success",
+    "duration_ms": 0.55,
+    "error": null,
+    "output_summary": "status=ok; body 33020 character(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:56.817174+00:00",
+    "run_id": null,
+    "tool": "list_mcp_prompts",
+    "input_summary": "",
+    "status": "success",
+    "duration_ms": 0.01,
+    "error": null,
+    "output_summary": "5 prompt template(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:56.828265+00:00",
+    "run_id": null,
+    "tool": "list_mcp_prompts",
+    "input_summary": "",
+    "status": "success",
+    "duration_ms": 0.0,
+    "error": null,
+    "output_summary": "5 prompt template(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:56.839479+00:00",
+    "run_id": null,
+    "tool": "get_mcp_prompt",
+    "input_summary": "name='explain_contract_mismatch'",
+    "status": "success",
+    "duration_ms": 0.03,
+    "error": null,
+    "output_summary": "Prompt string 244 character(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:49:56.850979+00:00",
+    "run_id": null,
+    "tool": "get_mcp_prompt",
+    "input_summary": "name='explain_contract_mismatch'",
+    "status": "success",
+    "duration_ms": 0.04,
+    "error": null,
+    "output_summary": "Prompt string 244 character(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:25.384151+00:00",
+    "run_id": null,
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 3.9,
+    "error": null,
+    "output_summary": "2 contract(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:25.391636+00:00",
+    "run_id": null,
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 4.98,
+    "error": null,
+    "output_summary": "2 route(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:25.406061+00:00",
+    "run_id": null,
+    "tool": "compare_contracts",
+    "input_summary": "fe=2 be=2",
+    "status": "success",
+    "duration_ms": 0.44,
+    "error": null,
+    "output_summary": "6 mismatch(es); High=3"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:25.480085+00:00",
+    "run_id": null,
+    "tool": "find_openapi_specs",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 61.85,
+    "error": null,
+    "output_summary": "1 spec path(s); yaml_supported=True"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:25.493178+00:00",
+    "run_id": null,
+    "tool": "parse_openapi_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1.57,
+    "error": null,
+    "output_summary": "2 operation(s); specs=1"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:25.510327+00:00",
+    "run_id": null,
+    "tool": "compare_backend_to_openapi",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project' backend_rows=0 openapi_rows=0",
+    "status": "success",
+    "duration_ms": 5.41,
+    "error": null,
+    "output_summary": "3 openapi drift mismatch(es); High=1"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:26.332950+00:00",
+    "run_id": "run-20260506-225725",
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1.25,
+    "error": null,
+    "output_summary": "6 file path(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:26.340818+00:00",
+    "run_id": "run-20260506-225725",
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 3.08,
+    "error": null,
+    "output_summary": "2 contract(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:26.356651+00:00",
+    "run_id": "run-20260506-225725",
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 3.96,
+    "error": null,
+    "output_summary": "2 route(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:26.369263+00:00",
+    "run_id": "run-20260506-225725",
+    "tool": "compare_contracts",
+    "input_summary": "fe=2 be=2",
+    "status": "success",
+    "duration_ms": 0.14,
+    "error": null,
+    "output_summary": "6 mismatch(es); High=3"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:26.780491+00:00",
+    "run_id": "run-20260506-225725",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=36234",
+    "status": "success",
+    "duration_ms": 0.75,
+    "error": null,
+    "output_summary": "Wrote OK -> contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:26.796904+00:00",
+    "run_id": "run-20260506-225725",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=36589",
+    "status": "success",
+    "duration_ms": 0.97,
+    "error": null,
+    "output_summary": "Wrote OK -> contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:26.816490+00:00",
+    "run_id": null,
+    "tool": "generate_contract_report",
+    "input_summary": "feature='Create Project + Upload File' root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1294.7,
+    "error": null,
+    "output_summary": "mismatch_count=6; report=contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:28.082573+00:00",
+    "run_id": "run-20260506-225727",
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1.06,
+    "error": null,
+    "output_summary": "6 file path(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:28.108384+00:00",
+    "run_id": "run-20260506-225727",
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 3.49,
+    "error": null,
+    "output_summary": "2 contract(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:28.128153+00:00",
+    "run_id": "run-20260506-225727",
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 5.28,
+    "error": null,
+    "output_summary": "2 route(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:28.141501+00:00",
+    "run_id": "run-20260506-225727",
+    "tool": "compare_contracts",
+    "input_summary": "fe=2 be=2",
+    "status": "success",
+    "duration_ms": 0.32,
+    "error": null,
+    "output_summary": "6 mismatch(es); High=3"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:28.547719+00:00",
+    "run_id": "run-20260506-225727",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=37271",
+    "status": "success",
+    "duration_ms": 0.92,
+    "error": null,
+    "output_summary": "Wrote OK -> contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:28.564128+00:00",
+    "run_id": "run-20260506-225727",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=37627",
+    "status": "success",
+    "duration_ms": 0.99,
+    "error": null,
+    "output_summary": "Wrote OK -> contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:28.999260+00:00",
+    "run_id": null,
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 0.89,
+    "error": null,
+    "output_summary": "6 file path(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:29.011851+00:00",
+    "run_id": null,
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1.09,
+    "error": null,
+    "output_summary": "6 file path(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:29.041985+00:00",
+    "run_id": null,
+    "tool": "find_openapi_specs",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 19.48,
+    "error": null,
+    "output_summary": "1 spec path(s); yaml_supported=True"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:29.053954+00:00",
+    "run_id": null,
+    "tool": "find_openapi_specs",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1.16,
+    "error": null,
+    "output_summary": "1 spec path(s); yaml_supported=True"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:29.067003+00:00",
+    "run_id": null,
+    "tool": "parse_openapi_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1.81,
+    "error": null,
+    "output_summary": "2 operation(s); specs=1"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:29.080455+00:00",
+    "run_id": null,
+    "tool": "parse_openapi_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1.78,
+    "error": null,
+    "output_summary": "2 operation(s); specs=1"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:29.098020+00:00",
+    "run_id": null,
+    "tool": "compare_backend_to_openapi",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project' backend_rows=0 openapi_rows=0",
+    "status": "success",
+    "duration_ms": 6.88,
+    "error": null,
+    "output_summary": "3 openapi drift mismatch(es); High=1"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:29.115115+00:00",
+    "run_id": null,
+    "tool": "compare_backend_to_openapi",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project' backend_rows=0 openapi_rows=0",
+    "status": "success",
+    "duration_ms": 5.64,
+    "error": null,
+    "output_summary": "3 openapi drift mismatch(es); High=1"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:29.129285+00:00",
+    "run_id": null,
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 3.06,
+    "error": null,
+    "output_summary": "2 contract(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:29.144194+00:00",
+    "run_id": null,
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 3.56,
+    "error": null,
+    "output_summary": "2 route(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:29.156220+00:00",
+    "run_id": null,
+    "tool": "compare_contracts",
+    "input_summary": "fe=2 be=2",
+    "status": "success",
+    "duration_ms": 0.45,
+    "error": null,
+    "output_summary": "6 mismatch(es); High=3"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:29.934385+00:00",
+    "run_id": "run-20260506-225729",
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1.0,
+    "error": null,
+    "output_summary": "6 file path(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:29.941797+00:00",
+    "run_id": "run-20260506-225729",
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 3.33,
+    "error": null,
+    "output_summary": "2 contract(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:29.959771+00:00",
+    "run_id": "run-20260506-225729",
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 4.43,
+    "error": null,
+    "output_summary": "2 route(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:29.972078+00:00",
+    "run_id": "run-20260506-225729",
+    "tool": "compare_contracts",
+    "input_summary": "fe=2 be=2",
+    "status": "success",
+    "duration_ms": 0.13,
+    "error": null,
+    "output_summary": "6 mismatch(es); High=3"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:30.366400+00:00",
+    "run_id": "run-20260506-225729",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=39606",
+    "status": "success",
+    "duration_ms": 0.82,
+    "error": null,
+    "output_summary": "Wrote OK -> contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:30.383680+00:00",
+    "run_id": "run-20260506-225729",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=39962",
+    "status": "success",
+    "duration_ms": 1.05,
+    "error": null,
+    "output_summary": "Wrote OK -> contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:30.403571+00:00",
+    "run_id": null,
+    "tool": "generate_contract_report",
+    "input_summary": "feature='Create Project + Upload File' root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1236.09,
+    "error": null,
+    "output_summary": "mismatch_count=6; report=contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:30.427284+00:00",
+    "run_id": null,
+    "tool": "get_latest_report",
+    "input_summary": "reports_dir='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports'",
+    "status": "success",
+    "duration_ms": 11.02,
+    "error": null,
+    "output_summary": "Latest report body 39962 character(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:30.438715+00:00",
+    "run_id": null,
+    "tool": "list_mcp_resources",
+    "input_summary": "",
+    "status": "success",
+    "duration_ms": 0.01,
+    "error": null,
+    "output_summary": "6 resource URI(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:30.449590+00:00",
+    "run_id": null,
+    "tool": "list_mcp_resources",
+    "input_summary": "",
+    "status": "success",
+    "duration_ms": 0.0,
+    "error": null,
+    "output_summary": "6 resource URI(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:30.471423+00:00",
+    "run_id": null,
+    "tool": "read_mcp_resource",
+    "input_summary": "uri='contractlens://reports/latest'",
+    "status": "success",
+    "duration_ms": 10.5,
+    "error": null,
+    "output_summary": "status=ok; body 39962 character(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:30.484713+00:00",
+    "run_id": null,
+    "tool": "read_mcp_resource",
+    "input_summary": "uri='contractlens://reports/latest'",
+    "status": "success",
+    "duration_ms": 0.98,
+    "error": null,
+    "output_summary": "status=ok; body 39962 character(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:30.495773+00:00",
+    "run_id": null,
+    "tool": "list_mcp_prompts",
+    "input_summary": "",
+    "status": "success",
+    "duration_ms": 0.01,
+    "error": null,
+    "output_summary": "5 prompt template(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:30.506792+00:00",
+    "run_id": null,
+    "tool": "list_mcp_prompts",
+    "input_summary": "",
+    "status": "success",
+    "duration_ms": 0.01,
+    "error": null,
+    "output_summary": "5 prompt template(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:30.518092+00:00",
+    "run_id": null,
+    "tool": "get_mcp_prompt",
+    "input_summary": "name='explain_contract_mismatch'",
+    "status": "success",
+    "duration_ms": 0.04,
+    "error": null,
+    "output_summary": "Prompt string 244 character(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:57:30.528924+00:00",
+    "run_id": null,
+    "tool": "get_mcp_prompt",
+    "input_summary": "name='explain_contract_mismatch'",
+    "status": "success",
+    "duration_ms": 0.06,
+    "error": null,
+    "output_summary": "Prompt string 244 character(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:58:20.799014+00:00",
+    "run_id": null,
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 4.98,
+    "error": null,
+    "output_summary": "2 contract(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:58:20.806969+00:00",
+    "run_id": null,
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 5.49,
+    "error": null,
+    "output_summary": "2 route(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:58:20.819927+00:00",
+    "run_id": null,
+    "tool": "compare_contracts",
+    "input_summary": "fe=2 be=2",
+    "status": "success",
+    "duration_ms": 0.46,
+    "error": null,
+    "output_summary": "6 mismatch(es); High=3"
+  },
+  {
+    "timestamp": "2026-05-06T22:58:20.856166+00:00",
+    "run_id": null,
+    "tool": "find_openapi_specs",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 22.86,
+    "error": null,
+    "output_summary": "1 spec path(s); yaml_supported=True"
+  },
+  {
+    "timestamp": "2026-05-06T22:58:20.871673+00:00",
+    "run_id": null,
+    "tool": "parse_openapi_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1.9,
+    "error": null,
+    "output_summary": "2 operation(s); specs=1"
+  },
+  {
+    "timestamp": "2026-05-06T22:58:20.892959+00:00",
+    "run_id": null,
+    "tool": "compare_backend_to_openapi",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project' backend_rows=0 openapi_rows=0",
+    "status": "success",
+    "duration_ms": 8.08,
+    "error": null,
+    "output_summary": "3 openapi drift mismatch(es); High=1"
+  },
+  {
+    "timestamp": "2026-05-06T22:58:21.854434+00:00",
+    "run_id": "run-20260506-225820",
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1.16,
+    "error": null,
+    "output_summary": "6 file path(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:58:21.865960+00:00",
+    "run_id": "run-20260506-225820",
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 4.52,
+    "error": null,
+    "output_summary": "2 contract(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:58:21.884591+00:00",
+    "run_id": "run-20260506-225820",
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 4.15,
+    "error": null,
+    "output_summary": "2 route(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:58:22.351585+00:00",
+    "run_id": "run-20260506-225820",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=44944",
+    "status": "success",
+    "duration_ms": 1.29,
+    "error": null,
+    "output_summary": "Wrote OK -> contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T22:58:22.370996+00:00",
+    "run_id": "run-20260506-225820",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=45299",
+    "status": "success",
+    "duration_ms": 0.93,
+    "error": null,
+    "output_summary": "Wrote OK -> contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T22:58:22.395509+00:00",
+    "run_id": null,
+    "tool": "generate_contract_report",
+    "input_summary": "feature='Create Project + Upload File' root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1488.81,
+    "error": null,
+    "output_summary": "mismatch_count=9; report=contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T22:58:23.787444+00:00",
+    "run_id": "run-20260506-225822",
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 2.51,
+    "error": null,
+    "output_summary": "6 file path(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:58:23.820725+00:00",
+    "run_id": "run-20260506-225822",
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 4.07,
+    "error": null,
+    "output_summary": "2 contract(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:58:23.839091+00:00",
+    "run_id": "run-20260506-225822",
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 5.35,
+    "error": null,
+    "output_summary": "2 route(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:58:24.328181+00:00",
+    "run_id": "run-20260506-225822",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=45903",
+    "status": "success",
+    "duration_ms": 1.07,
+    "error": null,
+    "output_summary": "Wrote OK -> contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T22:58:24.348660+00:00",
+    "run_id": "run-20260506-225822",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=46259",
+    "status": "success",
+    "duration_ms": 1.4,
+    "error": null,
+    "output_summary": "Wrote OK -> contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T22:58:53.872552+00:00",
+    "run_id": null,
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 4.26,
+    "error": null,
+    "output_summary": "2 contract(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:58:53.879871+00:00",
+    "run_id": null,
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 5.15,
+    "error": null,
+    "output_summary": "2 route(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:58:53.900035+00:00",
+    "run_id": null,
+    "tool": "compare_contracts",
+    "input_summary": "fe=2 be=2",
+    "status": "success",
+    "duration_ms": 0.75,
+    "error": null,
+    "output_summary": "6 mismatch(es); High=3"
+  },
+  {
+    "timestamp": "2026-05-06T22:58:53.934516+00:00",
+    "run_id": null,
+    "tool": "find_openapi_specs",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 21.63,
+    "error": null,
+    "output_summary": "1 spec path(s); yaml_supported=True"
+  },
+  {
+    "timestamp": "2026-05-06T22:58:53.950413+00:00",
+    "run_id": null,
+    "tool": "parse_openapi_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 2.64,
+    "error": null,
+    "output_summary": "2 operation(s); specs=1"
+  },
+  {
+    "timestamp": "2026-05-06T22:58:53.970743+00:00",
+    "run_id": null,
+    "tool": "compare_backend_to_openapi",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project' backend_rows=0 openapi_rows=0",
+    "status": "success",
+    "duration_ms": 7.36,
+    "error": null,
+    "output_summary": "3 openapi drift mismatch(es); High=1"
+  },
+  {
+    "timestamp": "2026-05-06T22:58:54.848099+00:00",
+    "run_id": "run-20260506-225853",
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1.23,
+    "error": null,
+    "output_summary": "6 file path(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:58:54.858154+00:00",
+    "run_id": "run-20260506-225853",
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 4.08,
+    "error": null,
+    "output_summary": "2 contract(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:58:54.878218+00:00",
+    "run_id": "run-20260506-225853",
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 5.5,
+    "error": null,
+    "output_summary": "2 route(s)"
+  },
+  {
+    "timestamp": "2026-05-06T22:58:55.323213+00:00",
+    "run_id": "run-20260506-225853",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=47550",
+    "status": "success",
+    "duration_ms": 0.95,
+    "error": null,
+    "output_summary": "Wrote OK -> contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T22:58:55.340382+00:00",
+    "run_id": "run-20260506-225853",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=47906",
+    "status": "success",
+    "duration_ms": 0.99,
+    "error": null,
+    "output_summary": "Wrote OK -> contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T22:58:55.363599+00:00",
+    "run_id": null,
+    "tool": "generate_contract_report",
+    "input_summary": "feature='Create Project + Upload File' root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1379.54,
+    "error": null,
+    "output_summary": "mismatch_count=9; report=contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:08.430041+00:00",
+    "run_id": null,
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 3.25,
+    "error": null,
+    "output_summary": "2 contract(s)"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:08.436695+00:00",
+    "run_id": null,
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 4.67,
+    "error": null,
+    "output_summary": "2 route(s)"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:08.450285+00:00",
+    "run_id": null,
+    "tool": "compare_contracts",
+    "input_summary": "fe=2 be=2",
+    "status": "success",
+    "duration_ms": 0.38,
+    "error": null,
+    "output_summary": "6 mismatch(es); High=3"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:08.481218+00:00",
+    "run_id": null,
+    "tool": "find_openapi_specs",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 19.16,
+    "error": null,
+    "output_summary": "1 spec path(s); yaml_supported=True"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:08.494106+00:00",
+    "run_id": null,
+    "tool": "parse_openapi_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1.57,
+    "error": null,
+    "output_summary": "2 operation(s); specs=1"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:08.511363+00:00",
+    "run_id": null,
+    "tool": "compare_backend_to_openapi",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project' backend_rows=0 openapi_rows=0",
+    "status": "success",
+    "duration_ms": 5.21,
+    "error": null,
+    "output_summary": "3 openapi drift mismatch(es); High=1"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:09.353898+00:00",
+    "run_id": "run-20260506-230208",
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 0.98,
+    "error": null,
+    "output_summary": "6 file path(s)"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:09.362203+00:00",
+    "run_id": "run-20260506-230208",
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 2.99,
+    "error": null,
+    "output_summary": "2 contract(s)"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:09.379203+00:00",
+    "run_id": "run-20260506-230208",
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 4.04,
+    "error": null,
+    "output_summary": "2 route(s)"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:09.794009+00:00",
+    "run_id": "run-20260506-230208",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=49791",
+    "status": "success",
+    "duration_ms": 0.85,
+    "error": null,
+    "output_summary": "Wrote OK -> contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:09.811140+00:00",
+    "run_id": "run-20260506-230208",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=50147",
+    "status": "success",
+    "duration_ms": 0.88,
+    "error": null,
+    "output_summary": "Wrote OK -> contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:09.831198+00:00",
+    "run_id": null,
+    "tool": "generate_contract_report",
+    "input_summary": "feature='Create Project + Upload File' root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1307.17,
+    "error": null,
+    "output_summary": "mismatch_count=9; report=contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:11.111110+00:00",
+    "run_id": "run-20260506-230210",
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1.11,
+    "error": null,
+    "output_summary": "6 file path(s)"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:11.143621+00:00",
+    "run_id": "run-20260506-230210",
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 3.37,
+    "error": null,
+    "output_summary": "2 contract(s)"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:11.163170+00:00",
+    "run_id": "run-20260506-230210",
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 5.24,
+    "error": null,
+    "output_summary": "2 route(s)"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:11.588418+00:00",
+    "run_id": "run-20260506-230210",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=50750",
+    "status": "success",
+    "duration_ms": 0.87,
+    "error": null,
+    "output_summary": "Wrote OK -> contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:11.607482+00:00",
+    "run_id": "run-20260506-230210",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=51106",
+    "status": "success",
+    "duration_ms": 1.33,
+    "error": null,
+    "output_summary": "Wrote OK -> contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:12.096590+00:00",
+    "run_id": null,
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1.92,
+    "error": null,
+    "output_summary": "6 file path(s)"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:12.110596+00:00",
+    "run_id": null,
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1.14,
+    "error": null,
+    "output_summary": "6 file path(s)"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:12.143544+00:00",
+    "run_id": null,
+    "tool": "find_openapi_specs",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 21.06,
+    "error": null,
+    "output_summary": "1 spec path(s); yaml_supported=True"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:12.157265+00:00",
+    "run_id": null,
+    "tool": "find_openapi_specs",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1.38,
+    "error": null,
+    "output_summary": "1 spec path(s); yaml_supported=True"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:12.250958+00:00",
+    "run_id": null,
+    "tool": "get_changed_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens' include_cached=True",
+    "status": "success",
+    "duration_ms": 81.31,
+    "error": null,
+    "output_summary": "0 path(s); git=False"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:12.317337+00:00",
+    "run_id": null,
+    "tool": "get_changed_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens' include_cached=True",
+    "status": "success",
+    "duration_ms": 53.53,
+    "error": null,
+    "output_summary": "0 path(s); git=False"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:12.332179+00:00",
+    "run_id": null,
+    "tool": "parse_openapi_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1.67,
+    "error": null,
+    "output_summary": "2 operation(s); specs=1"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:12.344489+00:00",
+    "run_id": null,
+    "tool": "parse_openapi_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1.55,
+    "error": null,
+    "output_summary": "2 operation(s); specs=1"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:12.363158+00:00",
+    "run_id": null,
+    "tool": "compare_backend_to_openapi",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project' backend_rows=0 openapi_rows=0",
+    "status": "success",
+    "duration_ms": 6.92,
+    "error": null,
+    "output_summary": "3 openapi drift mismatch(es); High=1"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:12.381057+00:00",
+    "run_id": null,
+    "tool": "compare_backend_to_openapi",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project' backend_rows=0 openapi_rows=0",
+    "status": "success",
+    "duration_ms": 6.11,
+    "error": null,
+    "output_summary": "3 openapi drift mismatch(es); High=1"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:12.393744+00:00",
+    "run_id": null,
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 3.34,
+    "error": null,
+    "output_summary": "2 contract(s)"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:12.410693+00:00",
+    "run_id": null,
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 4.79,
+    "error": null,
+    "output_summary": "2 route(s)"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:12.422772+00:00",
+    "run_id": null,
+    "tool": "compare_contracts",
+    "input_summary": "fe=2 be=2",
+    "status": "success",
+    "duration_ms": 0.26,
+    "error": null,
+    "output_summary": "6 mismatch(es); High=3"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:13.176637+00:00",
+    "run_id": "run-20260506-230212",
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1.15,
+    "error": null,
+    "output_summary": "6 file path(s)"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:13.183857+00:00",
+    "run_id": "run-20260506-230212",
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 2.18,
+    "error": null,
+    "output_summary": "2 contract(s)"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:13.200257+00:00",
+    "run_id": "run-20260506-230212",
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 3.35,
+    "error": null,
+    "output_summary": "2 route(s)"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:13.612435+00:00",
+    "run_id": "run-20260506-230212",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=53261",
+    "status": "success",
+    "duration_ms": 0.92,
+    "error": null,
+    "output_summary": "Wrote OK -> contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:13.630484+00:00",
+    "run_id": "run-20260506-230212",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=53616",
+    "status": "success",
+    "duration_ms": 1.93,
+    "error": null,
+    "output_summary": "Wrote OK -> contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:13.650920+00:00",
+    "run_id": null,
+    "tool": "generate_contract_report",
+    "input_summary": "feature='Create Project + Upload File' root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1216.62,
+    "error": null,
+    "output_summary": "mismatch_count=9; report=contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:13.673779+00:00",
+    "run_id": null,
+    "tool": "get_latest_report",
+    "input_summary": "reports_dir='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports'",
+    "status": "success",
+    "duration_ms": 11.25,
+    "error": null,
+    "output_summary": "Latest report body 53616 character(s)"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:13.686576+00:00",
+    "run_id": null,
+    "tool": "list_mcp_resources",
+    "input_summary": "",
+    "status": "success",
+    "duration_ms": 0.05,
+    "error": null,
+    "output_summary": "6 resource URI(s)"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:13.697817+00:00",
+    "run_id": null,
+    "tool": "list_mcp_resources",
+    "input_summary": "",
+    "status": "success",
+    "duration_ms": 0.01,
+    "error": null,
+    "output_summary": "6 resource URI(s)"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:13.720249+00:00",
+    "run_id": null,
+    "tool": "read_mcp_resource",
+    "input_summary": "uri='contractlens://reports/latest'",
+    "status": "success",
+    "duration_ms": 11.37,
+    "error": null,
+    "output_summary": "status=ok; body 53616 character(s)"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:13.732971+00:00",
+    "run_id": null,
+    "tool": "read_mcp_resource",
+    "input_summary": "uri='contractlens://reports/latest'",
+    "status": "success",
+    "duration_ms": 0.71,
+    "error": null,
+    "output_summary": "status=ok; body 53616 character(s)"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:13.744555+00:00",
+    "run_id": null,
+    "tool": "list_mcp_prompts",
+    "input_summary": "",
+    "status": "success",
+    "duration_ms": 0.01,
+    "error": null,
+    "output_summary": "5 prompt template(s)"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:13.756974+00:00",
+    "run_id": null,
+    "tool": "list_mcp_prompts",
+    "input_summary": "",
+    "status": "success",
+    "duration_ms": 0.01,
+    "error": null,
+    "output_summary": "5 prompt template(s)"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:13.768553+00:00",
+    "run_id": null,
+    "tool": "get_mcp_prompt",
+    "input_summary": "name='explain_contract_mismatch'",
+    "status": "success",
+    "duration_ms": 0.13,
+    "error": null,
+    "output_summary": "Prompt string 244 character(s)"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:13.780449+00:00",
+    "run_id": null,
+    "tool": "get_mcp_prompt",
+    "input_summary": "name='explain_contract_mismatch'",
+    "status": "success",
+    "duration_ms": 0.04,
+    "error": null,
+    "output_summary": "Prompt string 244 character(s)"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:14.979432+00:00",
+    "run_id": "run-20260506-230214",
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1.1,
+    "error": null,
+    "output_summary": "6 file path(s)"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:15.044323+00:00",
+    "run_id": "run-20260506-230214",
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 2.88,
+    "error": null,
+    "output_summary": "2 contract(s)"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:15.062789+00:00",
+    "run_id": "run-20260506-230214",
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 4.79,
+    "error": null,
+    "output_summary": "2 route(s)"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:15.449203+00:00",
+    "run_id": "run-20260506-230214",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=55959",
+    "status": "success",
+    "duration_ms": 1.05,
+    "error": null,
+    "output_summary": "Wrote OK -> contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T23:02:15.469365+00:00",
+    "run_id": "run-20260506-230214",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=56314",
+    "status": "success",
+    "duration_ms": 1.08,
+    "error": null,
+    "output_summary": "Wrote OK -> contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T23:05:01.316943+00:00",
+    "run_id": null,
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 3.13,
+    "error": null,
+    "output_summary": "2 contract(s)"
+  },
+  {
+    "timestamp": "2026-05-06T23:05:01.324023+00:00",
+    "run_id": null,
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 4.65,
+    "error": null,
+    "output_summary": "2 route(s)"
+  },
+  {
+    "timestamp": "2026-05-06T23:05:01.337886+00:00",
+    "run_id": null,
+    "tool": "compare_contracts",
+    "input_summary": "fe=2 be=2",
+    "status": "success",
+    "duration_ms": 0.35,
+    "error": null,
+    "output_summary": "6 mismatch(es); High=3"
+  },
+  {
+    "timestamp": "2026-05-06T23:05:01.367564+00:00",
+    "run_id": null,
+    "tool": "find_openapi_specs",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 18.54,
+    "error": null,
+    "output_summary": "1 spec path(s); yaml_supported=True"
+  },
+  {
+    "timestamp": "2026-05-06T23:05:01.381350+00:00",
+    "run_id": null,
+    "tool": "parse_openapi_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1.82,
+    "error": null,
+    "output_summary": "2 operation(s); specs=1"
+  },
+  {
+    "timestamp": "2026-05-06T23:05:01.398293+00:00",
+    "run_id": null,
+    "tool": "compare_backend_to_openapi",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project' backend_rows=0 openapi_rows=0",
+    "status": "success",
+    "duration_ms": 5.92,
+    "error": null,
+    "output_summary": "3 openapi drift mismatch(es); High=1"
+  },
+  {
+    "timestamp": "2026-05-06T23:05:02.185957+00:00",
+    "run_id": "run-20260506-230501",
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1.02,
+    "error": null,
+    "output_summary": "6 file path(s)"
+  },
+  {
+    "timestamp": "2026-05-06T23:05:02.194485+00:00",
+    "run_id": "run-20260506-230501",
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 2.76,
+    "error": null,
+    "output_summary": "2 contract(s)"
+  },
+  {
+    "timestamp": "2026-05-06T23:05:02.211324+00:00",
+    "run_id": "run-20260506-230501",
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 3.47,
+    "error": null,
+    "output_summary": "2 route(s)"
+  },
+  {
+    "timestamp": "2026-05-06T23:05:02.619058+00:00",
+    "run_id": "run-20260506-230501",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=56622",
+    "status": "success",
+    "duration_ms": 1.24,
+    "error": null,
+    "output_summary": "Wrote OK -> contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T23:05:02.635298+00:00",
+    "run_id": "run-20260506-230501",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=56978",
+    "status": "success",
+    "duration_ms": 0.89,
+    "error": null,
+    "output_summary": "Wrote OK -> contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T23:05:02.655445+00:00",
+    "run_id": null,
+    "tool": "generate_contract_report",
+    "input_summary": "feature='Create Project + Upload File' root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 1245.8,
+    "error": null,
+    "output_summary": "mismatch_count=9; report=contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T23:05:03.830443+00:00",
+    "run_id": "run-20260506-230503",
+    "tool": "list_project_files",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 2.12,
+    "error": null,
+    "output_summary": "6 file path(s)"
+  },
+  {
+    "timestamp": "2026-05-06T23:05:03.861624+00:00",
+    "run_id": "run-20260506-230503",
+    "tool": "scan_frontend_contracts",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 3.45,
+    "error": null,
+    "output_summary": "2 contract(s)"
+  },
+  {
+    "timestamp": "2026-05-06T23:05:03.880256+00:00",
+    "run_id": "run-20260506-230503",
+    "tool": "scan_backend_routes",
+    "input_summary": "root='C:\\\\dev\\\\projects\\\\contract-lens\\\\examples\\\\sample_project'",
+    "status": "success",
+    "duration_ms": 5.05,
+    "error": null,
+    "output_summary": "2 route(s)"
+  },
+  {
+    "timestamp": "2026-05-06T23:05:04.275454+00:00",
+    "run_id": "run-20260506-230503",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=57581",
+    "status": "success",
+    "duration_ms": 0.84,
+    "error": null,
+    "output_summary": "Wrote OK -> contractlens-report-create-project-upload-file.md"
+  },
+  {
+    "timestamp": "2026-05-06T23:05:04.291554+00:00",
+    "run_id": "run-20260506-230503",
+    "tool": "write_report",
+    "input_summary": "path='C:\\\\dev\\\\projects\\\\contract-lens\\\\contractlens-reports\\\\contractlens-report-create-project-upload-file.md' bytes=57936",
+    "status": "success",
+    "duration_ms": 1.01,
+    "error": null,
+    "output_summary": "Wrote OK -> contractlens-report-create-project-upload-file.md"
+  }
+]

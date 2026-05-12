@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ContractLens Dashboard</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <header class="top">
+    <h1>ContractLens <span class="badge">local</span></h1>
+    <p class="sub">Read-only view of run artifacts under <code>contractlens-runs/</code> (choose <strong>latest</strong> or a stamped <code>run-*</code> folder).</p>
+  </header>
+
+  <div class="toolbar">
+    <label class="run-label">Snapshot <select id="run-select"></select></label>
+    <button type="button" class="btn-secondary" id="reload-btn">Reload</button>
+  </div>
+
+  <nav class="tabs">
+    <button type="button" class="tab active" data-tab="overview">Overview</button>
+    <button type="button" class="tab" data-tab="trace">Workflow Trace</button>
+    <button type="button" class="tab" data-tab="mcp">MCP Tool Calls</button>
+    <button type="button" class="tab" data-tab="agents">Agent Trace</button>
+    <button type="button" class="tab" data-tab="findings">Findings</button>
+    <button type="button" class="tab" data-tab="report">Report Viewer</button>
+    <button type="button" class="tab" data-tab="compare">Compare runs</button>
+  </nav>
+
+  <main>
+    <section id="panel-overview" class="panel active">
+      <h2>Overview</h2>
+      <div id="overview-empty" class="empty hidden" role="status">No <code>run_summary.json</code> yet. Run:
+        <pre>python -m contractlens.main --feature "…" --root &lt;repo&gt; --verbose</pre>
+      </div>
+      <dl id="overview-grid" class="grid-dl"></dl>
+      <div class="links" id="overview-links"></div>
+    </section>
+
+    <section id="panel-trace" class="panel">
+      <h2>Workflow trace</h2>
+      <p class="hint">LangGraph / sequential execution lines from <code>execution_trace.json</code>.</p>
+      <ol id="exec-list" class="mono-list"></ol>
+    </section>
+
+    <section id="panel-mcp" class="panel">
+      <h2>MCP tool calls</h2>
+      <p class="hint">From <code>tool_audit_log.json</code>.</p>
+      <div class="table-wrap">
+        <table class="data" id="audit-table">
+          <thead><tr><th>Tool</th><th>Status</th><th>ms</th><th>Input</th><th>Output</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="panel-agents" class="panel">
+      <h2>Agent trace</h2>
+      <p class="hint">Grouped from <code>agent_trace.json</code> string lines (heuristic labels).</p>
+      <div id="agent-groups"></div>
+    </section>
+
+    <section id="panel-findings" class="panel">
+      <h2>Findings</h2>
+      <h3>Frontend expectations</h3>
+      <pre id="fe-json" class="json-block"></pre>
+      <h3>Backend reality</h3>
+      <pre id="be-json" class="json-block"></pre>
+      <h3>Mismatches</h3>
+      <div class="table-wrap">
+        <table class="data" id="mm-table">
+          <thead><tr><th>Area</th><th>Risk</th><th>Frontend</th><th>Backend</th><th>Suggestion</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="panel-report" class="panel">
+      <h2>Report viewer</h2>
+      <p class="hint">Markdown rendered server-side for the selected snapshot. HTML opens with the same run.</p>
+      <div class="report-actions" id="report-actions"></div>
+      <div id="report-frame-wrap" class="report-frame-wrap">
+        <div id="report-html" class="report-html markdown-body"></div>
+      </div>
+    </section>
+
+    <section id="panel-compare" class="panel">
+      <h2>Compare runs</h2>
+      <p class="hint">Mismatch rows keyed by area + frontend/backend expectation (heuristic diff).</p>
+      <div class="diff-toolbar">
+        <label>Left <select id="diff-left"></select></label>
+        <label>Right <select id="diff-right"></select></label>
+        <button type="button" class="btn-secondary" id="diff-run-btn">Compare</button>
+      </div>
+      <div id="diff-out" class="diff-out"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span id="latest-hint"></span>
+  </footer>
+  <script src="/static/app.js"></script>
+</body>
+</html>

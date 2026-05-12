@@ -1,0 +1,22 @@
+# ContractLens AI — MVP dependencies
+
+pydantic>=2.5.0
+
+# OpenAPI YAML specs (JSON specs work without this)
+PyYAML>=6.0
+
+# Workflow graph (sequential fallback if unavailable)
+langgraph>=0.2.0
+langchain-core>=0.3.0
+
+# MCP stdio server (optional transport)
+mcp>=1.0.0
+
+# CrewAI — LLM agents call ContractLens tools when OPENAI_API_KEY is set (otherwise deterministic path)
+crewai>=0.76.0
+
+# Local read-only dashboard (contractlens.dashboard.server)
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+markdown>=3.5
+tomli>=2.0.0; python_version < "3.11"

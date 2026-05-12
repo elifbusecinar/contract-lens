@@ -1,0 +1,19 @@
+# Example optional ContractLens config (copy to your repo root as `contractlens.toml`).
+#
+# See README → Configuration.
+
+[contractlens]
+# Extra directory name fragments skipped during scans (like `node_modules`).
+extra_ignore_dirs = ["coverage", ".turbo"]
+
+# When true, audits emit HTML alongside Markdown without passing `--html`.
+emit_html_by_default = false
+
+# OpenAPI local `$ref` chain depth (4–96). Default in code is 32 if omitted.
+openapi_max_ref_chain = 40
+
+# Optional: persist scanner fingerprints under `<repo>/.contractlens/scan-cache/` when enabled.
+scan_cache = false
+
+# Optional: after a successful audit, perform a lightweight HTTP GET (stdout only).
+probe_base_url = ""

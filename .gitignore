@@ -1,0 +1,5 @@
+cache/
+
+contractlens/dashboard/static_built/
+dashboard-ui/node_modules/
+dashboard-ui/dist/
